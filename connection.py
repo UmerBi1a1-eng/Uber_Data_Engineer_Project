@@ -13,7 +13,7 @@ import os
 from data import generate_uber_ride_confirmation
 
 CONNECTION_STRING = os.getenv("CONNECTION_STRING")
-EVENT_HUBNAME = os.getenv("EVENT_HUBNAME")
+EVENT_HUBNAME = os.getenv("ubereventhub")
 
 
 
